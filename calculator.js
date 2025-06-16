@@ -42,6 +42,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.calculator = calculator;
 const readline = __importStar(require("readline"));
 function askQuestion(query) {
     const rl = readline.createInterface({
@@ -60,4 +61,3 @@ function calculator() {
         console.log(`Result = ${number1 - number2}`);
     });
 }
-calculator();
