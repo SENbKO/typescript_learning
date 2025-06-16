@@ -57,7 +57,7 @@ function calculator() {
     return __awaiter(this, void 0, void 0, function* () {
         let number1 = Number(yield askQuestion("Enter the first number: "));
         let number2 = Number(yield askQuestion("Enter the second number: "));
-        console.log(`Result = ${number1 + number2}`);
+        console.log(`Result = ${number1 - number2}`);
     });
 }
 calculator();
